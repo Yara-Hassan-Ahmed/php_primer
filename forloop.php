@@ -10,5 +10,4 @@
         }
     ?>
     
-</body>
-</html>
+    <?php require 'host/footer.php' ?>

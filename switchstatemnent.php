@@ -1,5 +1,6 @@
-<?php include 'host/header.php' ?>
-
+<?php 
+     $title = "Switch Statements";
+    include 'host/header.php' ?>
 <h1> Switch statement</h1>
     <?php
     $grade = 'B';
@@ -15,5 +16,4 @@
             break; 
     }
     ?>
-</body>
-</html>
+ <?php require 'host/footer.php' ?>

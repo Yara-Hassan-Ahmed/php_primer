@@ -1,5 +1,8 @@
-<?php include 'host/header.php' ?>
-    <h1>Hello world - PHP Primer</h1>
+   
+   <?php 
+        $title = "Index";
+        include 'host/header.php' 
+    ?>    <h1>Hello world - PHP Primer</h1>
     <br/>
     <?php
         echo 'hello php!';
@@ -16,5 +19,10 @@
         echo '<h1>age: '.$age.'</h1>';
     ?>
 
-</body>
-</html>
+<button type="button" class="btn btn-dark">CLICK ME!</button>
+    <button type="button" class="btn btn-primary">CLICK ME!</button>
+    <button type="button" class="btn btn-success">CLICK ME!</button>
+    <a href="https://www.heroku.com" target="_blank" class="btn btn-danger">Heroku.com</a>
+    <?php
+        require 'host/footer.php' 
+    ?>

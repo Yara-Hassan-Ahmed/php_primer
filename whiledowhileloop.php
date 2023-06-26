@@ -1,5 +1,6 @@
-<?php include 'host/header.php' ?>
-
+<?php 
+     $title = "While Loop";
+    include 'host/header.php' ?>
     <h1>while loop</h1>
     <?php
         $grade = 0;
@@ -24,5 +25,4 @@
         }while($grade<10);
         echo 'exit loop!';
     ?>
-</body>
-</html>
+<?php require 'host/footer.php' ?>
